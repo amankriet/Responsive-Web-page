@@ -6,17 +6,16 @@
 body {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    margin: 32px;
+    width: 100%;
+    height: 100%;
     background-color: #f9f9f9;
 }
 
 #header {
-    margin: 0 20px;
-    font-size: 4 em;
+    margin: 64px 72px;
+    font-size: 2.5em;
     height: 10%;
-    width: 10%;
+    width: 5%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -25,16 +24,16 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    height: 80%;
-    width: 100%;
-    margin: 0 20px;
+    margin: -72px 72px;
+    height: 100%;
+    width: 90%;
 }
 
 nav {
-    height: 70%;
-    width: 20%;
+    height: 80%;
+    width: 40%;
     display: flex;
-    margin-top: 42px;
+    margin-top: 72px;
     flex-direction: column;
 }
 
@@ -44,24 +43,45 @@ button {
     background-color: #ff3f45;
     font-size: 1.2em;
     border-radius: 32px;
-    width: 120px;
-    height: 48px;
+    width: 160px;
+    height: 60px;
     border-style: none;
 }
 
 .light_text {
     color: #4b4b4b;
     font-weight: 50;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 ul {
     list-style-type: none;
 }
 li {
-    margin: 0 0 42px 0;
+    margin: 0 0 56px 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    column-gap: 56px;
+    width: 100%;
 }
 
 #title {
-    font-size: 4em;
+    font-size: 5em;
+    flex: 2;
+}
+
+#description {
+    flex: 1;
+    font-size: 1.1em;
+    font-weight: 50;
+    line-height: 1.7;
 }
