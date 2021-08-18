@@ -1,6 +1,5 @@
 #container {
     position: relative;
-    /* background-color: red; */
     width: 100%;
     height: 100%;
     display: grid;
@@ -22,7 +21,6 @@
 }
 
 #header {
-    background-color: whitesmoke;
     height: 10vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -41,7 +39,6 @@
 }
 
 #footer {
-    background-color: whitesmoke;
     text-align: justify;
     flex: 1;
     font-size: 1.1em;
